@@ -1,0 +1,79 @@
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 25px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+  content: " +";
+}
+li > a:only-child:after {
+  content: "";
+}
+
+.time-table table tr th {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #fff;
+  border: 1px solid rgb(184, 39, 99);
+  width: 59px;
+  padding: 14px 0;
+  background: #cb3a77;
+}
+
+.single_result,
+.single_result:hover {
+  background: #cb3a77;
+}
+
+.header .navbar-nav > li > a.active,
+.header .navbar-nav > li > a:hover,
+.header .navbar-nav > li > a:focus,
+.view_chart {
+  background: 0 0;
+  color: #cb3a77;
+}
+.rate_list_ul li i {
+  background: #cb3a77;
+}
+
+.how-works-item .icon-outer {
+  color: #cb3a77;
+  border: 1px dashed #cb3a77;
+}
+
+.how-works-item::before,
+.how-works-item::after {
+  border-color: #cb3a77;
+}
+.primary-btn,
+.primary-btn:active,
+.primary-btn:focus,
+.primary-btn:hover {
+  background: #cb3a77;
+}
+.copy {
+  color: #cb3a77;
+}
